@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+
+
+<head>
+
+<title>Home</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+
+
+<body>
+
+<div id=body>
+
+  <h1 align="center" id="message" class="expandUp"></h1>
+      <script type="text/javascript">
+              var d = new Date();
+              var n = d.getHours();
+
+              if ( n == 22 || n == 0) {
+                      message = "Goodnight";
+              } else if ( n >= 1 && n <= 4 ) {
+                      message = "Goodnight";
+              } else if ( n >= 5 && n <= 11 ) {
+                      message = "Good Morning";
+              } else if ( n >= 12 && n <= 17 ) {
+                      message = "Good Afternoon";
+              } else if ( n >= 18 && n <= 21 ) {
+                      message = "Good Evening";
+              }
+
+              document.getElementById("message").innerHTML = message;
+      </script>
+
+<span>MEDIA </span>
+<span class=links>
+<br>
+[ <a href="https://www.reddit.com">Reddit</a> |
+<a href="https://www.voat.co/v/fatpeoplehate">Voat</a> ]
+</span>
+
+<br><br>
+
+<span>ENTERTAINMENT </span>
+<span class=links>
+<br>
+[ <a href="https://www.youtube.com/feed/subscriptions">YouTube</a> | 
+<a href="https://www.netflix.com/browse">Netflix</a> |
+<a href="http://www.shush.se/index.php?shows">Shush TV</a> |
+<a href="http://www.pandora.com/">Pandora</a> ]
+</span>
+
+<br><br>
+
+<span>SOCIAL </span>
+<span class=links>
+<br>
+[ <a href='http://smashboards.com/forums/the-back-room.24/'>Back Room</a> |
+<a href='https://goodreads.com'>Goodreads</a> |
+<a href="https://discordapp.com/channels/@me">Discord</a> ]
+</span>
+
+<br><br>
+
+<span>DOWNLOAD </span>
+<span class=links>
+<br>
+[ <a href='https://thepiratebay.se'>Pirate Bay</a> |
+<a href='https://kat.cr/full'>Kickass</a> |
+<a href='http://forum.mobilism.org/search.php'>Mobilism</a> ]
+</span>
+
+<br><br>
+
+</div>
+
+</body>
